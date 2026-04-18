@@ -118,19 +118,19 @@ export default function Hero() {
       {/* HUD Elements mimicking the labels in the image */}
       <div className="absolute inset-0 z-[4] pointer-events-none px-6 md:px-14">
         <div className="absolute top-[15%] left-[10%] border border-gold/20 p-2 md:p-4 transition-opacity group hidden sm:block">
-           <span className="absolute -top-6 left-0 text-[8px] md:text-[10px] font-mono text-gold/40"></span>
+           <span className="absolute -top-6 left-0 text-[8px] md:text-[10px] font-mono text-gold/40">____</span>
            <div className="w-10 md:w-16 h-5 md:h-8 bg-gold/5 blur-sm" />
         </div>
         <div className="absolute top-[40%] right-[15%] border border-gold/20 p-2 md:p-4 hidden md:block">
-           <span className="absolute -top-6 right-0 text-[10px] font-mono text-gold/40"></span>
+           <span className="absolute -top-6 right-0 text-[10px] font-mono text-gold/40">____</span>
            <div className="w-12 h-6 bg-gold/5 blur-md" />
         </div>
         <div className="absolute bottom-[20%] left-[20%] border border-gold/20 p-2 md:p-3 hidden lg:block">
-           <span className="absolute -top-6 left-0 text-[10px] font-mono text-gold/40"></span>
+           <span className="absolute -top-6 left-0 text-[10px] font-mono text-gold/40">____</span>
            <div className="w-20 h-10 bg-gold/5 blur-lg" />
         </div>
         <div className="absolute bottom-[35%] right-[25%] border border-gold/20 p-2 md:p-5 hidden sm:block">
-           <span className="absolute -top-6 right-0 text-[8px] md:text-[10px] font-mono text-gold/40"></span>
+           <span className="absolute -top-6 right-0 text-[8px] md:text-[10px] font-mono text-gold/40">____</span>
            <div className="w-10 md:w-14 h-5 md:h-7 bg-gold/5 blur-sm" />
         </div>
       </div>
